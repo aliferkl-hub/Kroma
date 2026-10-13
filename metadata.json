@@ -1,0 +1,6 @@
+{
+  "name": "Kroma Marketplace Fintech",
+  "description": "Marketplace multicategoria com identidade visual fintech, integração oficial com Mercado Livre, Shopee, Amazon e TikTok Shop, rastreamento de afiliados e módulo de dropshipping.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,147 @@
+{
+  "products": [],
+  "integrations": {
+    "mercadolivre": {
+      "id": "mercadolivre",
+      "name": "Mercado Livre Brasil",
+      "status": "error",
+      "officialApiDocs": "https://developers.mercadolibre.com.br/pt_br/api-docs-pt-br",
+      "credentials": {
+        "appId": "",
+        "clientSecret": "",
+        "redirectUri": "",
+        "accessToken": ""
+      },
+      "affiliateTag": "kroma_mlb_01",
+      "lastTested": null,
+      "lastSync": null,
+      "productsCount": 0,
+      "errorLog": [
+        {
+          "timestamp": "2026-10-12T23:15:31.088Z",
+          "message": "Política de Segurança Mercado Libre (PolicyAgent 403): O Mercado Livre Brasil agora exige autenticação OAuth 2.0 (Access Token) obrigatória. Para conectar, crie uma aplicação no Developers Mercado Livre e informe o Access Token nas Credenciais.",
+          "code": "403"
+        },
+        {
+          "timestamp": "2026-10-12T23:15:25.626Z",
+          "message": "Erro HTTP 403: {\"message\":\"At least one policy returned UNAUTHORIZED.\",\"status\":403,\"code\":\"PA_UNAUTHORIZED_RESULT_FROM_POLICIES\",\"blocked_by\":\"PolicyAgent\"}\n",
+          "code": "403"
+        },
+        {
+          "timestamp": "2026-10-12T23:14:38.224Z",
+          "message": "Erro HTTP 403: {\"blocked_by\":\"PolicyAgent\",\"status\":403,\"code\":\"PA_UNAUTHORIZED_RESULT_FROM_POLICIES\",\"message\":\"At least one policy returned UNAUTHORIZED.\"}\n",
+          "code": "403"
+        }
+      ],
+      "syncHistory": [],
+      "authorizedNotes": "Integração oficial via Mercado Libre Developers API (Site ID: MLB). Permite busca pública autenticada ou autorizada por OAuth 2.0."
+    },
+    "shopee": {
+      "id": "shopee",
+      "name": "Shopee Brasil",
+      "status": "error",
+      "officialApiDocs": "https://open.shopee.com/documents",
+      "credentials": {
+        "partnerId": "",
+        "partnerKey": "",
+        "shopId": "",
+        "appSecret": "",
+        "affiliateAppId": ""
+      },
+      "affiliateTag": "shopee_kroma_br",
+      "lastTested": null,
+      "lastSync": null,
+      "productsCount": 0,
+      "errorLog": [
+        {
+          "timestamp": "2026-10-12T23:15:34.826Z",
+          "message": "Credenciais ausentes: Partner ID e Partner Key são obrigatórios para validar conexão oficial com Shopee Open Platform Brasil.",
+          "code": "MISSING_CREDENTIALS"
+        }
+      ],
+      "syncHistory": [],
+      "authorizedNotes": "Requer aprovação prévia no Shopee Open Platform e no Programa Oficial de Afiliados Shopee Brasil."
+    },
+    "amazon": {
+      "id": "amazon",
+      "name": "Amazon Brasil",
+      "status": "error",
+      "officialApiDocs": "https://webservices.amazon.com/paapi5/documentation/",
+      "credentials": {
+        "associateTag": "",
+        "accessKeyId": "",
+        "secretKey": "",
+        "region": "sa-east-1"
+      },
+      "affiliateTag": "kroma-amz-20",
+      "lastTested": null,
+      "lastSync": null,
+      "productsCount": 0,
+      "errorLog": [
+        {
+          "timestamp": "2026-10-12T23:15:39.015Z",
+          "message": "Credenciais incompletas: Associate Tag, Access Key ID e Secret Key são necessários para autenticar no Amazon PA-API 5.0 Brasil.",
+          "code": "MISSING_CREDENTIALS"
+        }
+      ],
+      "syncHistory": [],
+      "authorizedNotes": "Requer conta aprovada no Programa de Associados Amazon Brasil e credenciais válidas do Product Advertising API (PA-API 5.0)."
+    },
+    "tiktok": {
+      "id": "tiktok",
+      "name": "TikTok Shop",
+      "status": "error",
+      "officialApiDocs": "https://partner.tiktokshop.com/doc/page/overview",
+      "credentials": {
+        "appKey": "",
+        "appSecret": "",
+        "shopCipher": "",
+        "accessToken": ""
+      },
+      "affiliateTag": "tt_kroma_br",
+      "lastTested": null,
+      "lastSync": null,
+      "productsCount": 0,
+      "errorLog": [
+        {
+          "timestamp": "2026-10-12T23:15:43.423Z",
+          "message": "Credenciais ausentes: App Key e App Secret são necessários para conectar com o TikTok Shop Partner API.",
+          "code": "MISSING_CREDENTIALS"
+        }
+      ],
+      "syncHistory": [],
+      "authorizedNotes": "Requer cadastro no TikTok Shop Partner (TTSP) para o mercado brasileiro."
+    },
+    "custom_feed": {
+      "id": "custom_feed",
+      "name": "Feed Oficial Autorizado (CSV/JSON/XML)",
+      "status": "not_configured",
+      "officialApiDocs": "Padronização RFC de feeds de afiliados (Awin, Socialsoul/Lomadee, Rakuten, Fornecedores)",
+      "credentials": {
+        "feedUrl": "",
+        "authHeader": "",
+        "format": "json"
+      },
+      "affiliateTag": "kroma_feed",
+      "lastTested": null,
+      "lastSync": null,
+      "productsCount": 0,
+      "errorLog": [],
+      "syncHistory": [],
+      "authorizedNotes": "Importação segura de feeds autorizados por contrato com verificação de integridade e checagem de schema."
+    }
+  },
+  "suppliers": [],
+  "orders": [],
+  "clicks": [],
+  "settings": {
+    "storeName": "Kroma Marketplace",
+    "tagline": "Marketplace Multicategoria & Ecossistema de Compras Inteligente",
+    "primaryColor": "#7C3AED",
+    "accentColor": "#9333EA",
+    "adminPin": "admin123",
+    "disclaimerText": "Aviso de Transparência: Este marketplace é uma plataforma independente. Produtos com indicação de Afiliado direcionam o comprador para as plataformas oficiais homologadas (Mercado Livre, Shopee, Amazon, TikTok Shop) onde a transação é finalizada com total segurança do consumidor. Podemos ser remunerados por compras qualificadas sem qualquer custo adicional para o usuário.",
+    "dropshipCheckoutEnabled": false,
+    "contactEmail": "contato@kromamarketplace.com.br"
+  }
+}
